@@ -1,0 +1,424 @@
+@font-face{
+    font-family: "Montserrat-Light";
+    src: url(../fonts/MontserratAlternates-Light.otf);
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/MontserratAlternates-Regular.otf);
+}
+
+*{
+     box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+
+header{
+   background-color:	#002069;
+  width: 100%;
+}
+.header2{
+    width: 100%;
+}
+
+header div{
+    padding: 0 10px;
+}
+
+.logo1{
+    width: 200px;
+  
+}
+.logo1 img{
+    width: 100%;
+}
+.lista select{
+    border-radius: 5px;
+    padding: 5px;
+}
+.ver-cartelera{
+    background-color: #fbcf4c;
+    font-size: .95em;
+    padding: 8px 2px;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    border-radius: 3px;
+}
+
+.lista select{
+    color:rgba(0, 0, 0, .5);
+    font-weight: bold;
+    font-size: .90em;
+    width: 210px;
+    padding: 7px;
+    font-family: "Montserrat-Light";
+    
+
+    
+}
+
+.lista select option{
+    color:rgba(0, 0, 0, .8);
+    font-weight: 1;
+    font-size: .90em;
+    width: 100%;
+    font-family: "Montserrat-Light";
+    
+}
+
+
+.boton-header button{
+    background-color: #fbcf4c;
+    padding:5px 2px;
+    opacity: .95;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 4px;
+   
+ 
+}
+
+.boton-header button:hover{
+  opacity: 1;
+}
+.boton-header button a{
+    text-decoration: none;
+    color: black;
+    font-size: .90em;
+    padding: 8px 2px;
+    font-weight: bold;
+    letter-spacing: -.02em;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ff{
+    perspective: 900px;
+    cursor: pointer;
+ 
+}
+.ff a{
+    text-decoration: none;
+
+}
+.login{
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 0;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-65deg);
+    border-radius: 9px;
+    letter-spacing: 2px;
+    
+}
+.navbar2{
+    background-color: rgba(0, 0, 0, .9);
+    padding: 10px 100px;
+}
+.ccc{
+    background-color: black;
+}
+.lista2 a img{
+
+width: 150px;
+height: 181px;
+object-fit: cover;
+box-shadow: 0px 0px 15px 0px black;
+}
+
+.lista2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+.lista2 a:hover{
+    color: #002069;
+   
+    }
+.dropdown button{
+    background-color: #002069;
+}
+.dropdown button:hover{
+    background-color: white;
+    color: #002069;
+    
+
+}
+.lista2 a img:hover{
+    border: 2px solid #002069;
+    box-shadow: 0px 0px 0px 0px white;
+    }
+    .btn1{
+       color: white;
+       background-color: #002069;
+        padding: 4px 8px;
+        border-radius: 6px;
+    }
+    @media (max-width:1200px){
+        .votacion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .votacion div:nth-child(3){
+            display: none;
+        }
+        .votacion div input{
+            position: relative;
+            left: 40px;
+        }
+        .btn1{
+            position: relative;
+            right: 8px;
+            color:#002069;
+            background: #f2f2f2;
+            font-weight: bold;
+            
+        }
+
+    }
+    .btn2{
+        color: white;
+        background-color: #002069;
+         padding: 4px 8px;
+         border-radius: 6px;
+         
+    }
+
+    .cont-carr{
+        background: #f2f2f2;
+       
+    }
+    .titulo-cartelera{
+        color: white;
+        position: relative;
+        left: 25px;
+        
+
+        
+    }
+    .titulo-cartelera2{
+        color: #002069;
+    }
+    .linea{
+        background: rgba(255, 255, 255, .3);
+        width: 90%;
+        margin-top: 1px;
+        height: .2px;
+    }
+   .titulo-estrenos{
+    color:white;
+   }
+   .imax{
+    font-size: 70px;
+    color: black;
+    font-weight: 1000;
+    color: white;
+   }
+   .pgafas{
+       font-size: 20px;
+       color: black;
+       font-weight: 400;
+     
+   }
+   .pgafas1{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+   }
+   .ptitulo1{
+    font-weight: 1000;
+    color: #fff;
+    font-size: 20px;
+   }
+   .ptitulo{
+       font-weight: 1000;
+       color: #002069;
+       font-size: 20px;
+   }
+   .cgafas1{
+       background: #4285f4;
+       
+       border-radius: 10px;
+   }
+   .cgafas{
+    background-color: white;
+    border-radius: 10px;
+}
+
+   @media (max-width:1200px){
+      .ptitulo1{
+          font-size: 17px;
+      }
+      .pgafas1{
+          font-size: 15px;
+         
+      }
+      .imax{
+          font-size: 60px;
+      }
+   }
+
+   @media (max-width:992px){
+    .ptitulo1{
+        font-size: 12px;
+    }
+    .pgafas1{
+        font-size: 13px;
+    }
+    .imax{
+        font-size: 25px;
+    }
+ }
+ 
+ @media (max-width:768px){
+    .ptitulo1{
+        font-size: 12px;
+        position: relative;
+        top: 11px;
+    }
+    .pgafas1{
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+
+    }
+    .imax{
+        display: none;
+    }
+ }
+ 
+ @media (max-width:1200px){
+    .ptitulo{
+        font-size: 17px;
+    }
+    .pgafas{
+        font-size: 17px;
+    }
+    .igafas{
+        width: 180px;
+    }
+ }
+
+ @media (max-width:992px){
+  .ptitulo{
+      font-size: 12px;
+  }
+  .pgafas{
+      font-size: 13px;
+  }
+  .igafas{
+    width: 100px;
+}
+}
+
+@media (max-width:768px){
+  .ptitulo{
+      font-size: 12px;
+      position: relative;
+      top: 11px;
+      text-align: center;
+      
+  }
+  .pgafas{
+      font-size: 13px;
+      position: relative;
+      top: 10px;
+      text-align: center;
+      padding: 10px 0;
+  }
+  .igafas{
+      display: none;
+  }
+}
+.tf1{
+    color:  #feca30;
+    position: relative;
+    right: 53px;
+    top: 5px;
+}
+.tf2{
+    color:  #feca30;
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
+.bandera {
+ width: 30px;
+ height: 16px;
+ position: relative;
+}
+ 
+    
+.bandera img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   bottom: 50px;
+   left: 1050px;
+   
+}
+footer{
+    border-bottom: .7px solid rgba(255, 255, 255, .3);
+}
+.titulofooter{
+    
+    color: #feca30;
+    font-weight: normal;
+    font-size: 17px;
+    border-bottom: .7px solid rgba(255, 255, 255, .3);
+}
+.colpadre a{
+    color: white;
+    text-decoration: none;
+    transition: all 1.3s;
+    /* font-size: 1rem; */
+}
+.ultseccion{
+    background-color: black;
+}
+.colpadre a:hover{
+  color:  rgba(255, 255, 255, .3);
+}
+@media (max-width:576px){
+    .paisesFooter{
+        margin-left: -45px;
+    }
+}
+
+@media (max-width:1300px){
+    .bandera{
+        display: none;
+    }
+}
+.logos{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+.patrocinio{
+    background-color: black;
+}
+.copyright{
+    background: black;
+}
+.copyright p a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 1.3s;
+    color:  rgba(255, 255, 255, .3);
+}
